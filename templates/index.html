@@ -5,23 +5,100 @@
   <link rel="stylesheet" href="/static/static.css">
 </head>
 <body>
-  <div class="container">
-    <h1>GeneTechAI</h1>
-    <p>Natural language genetic circuit design interface</p>
+  <div class="app-window">
 
-    <form method="POST" action="/run">
-      <label>Enter your circuit description:</label>
-      <textarea name="user_input" placeholder="Example: Create a genetic circuit where output is ON only when A and B are present.">{{ user_input or "" }}</textarea>
+    <header class="top-header">
+      <div class="logo-row">
+        <img src="/static/BigLogo.png" class="logo" alt="GeneTechAI Logo">
+        <div class="tagline">
+          - A <span class="blue">Technology</span> mapping tool for
+          <span class="orange">Genetic</span> logic circuits
+        </div>
+      </div>
+      <div class="dna-line"></div>
+    </header>
 
-      <button type="submit">Run GeneTechAI</button>
+    <form method="POST" action="/draw" class="main-form">
+
+      <div class="row">
+        <label>Insert Expression</label>
+        <input
+          type="text"
+          name="expression"
+          value="{{ expression or '' }}"
+          placeholder="IPTG.aTc.Arabinose'+IPTG'.aTc.Arabinose'+IPTG.aTc'..."
+        >
+        <button type="submit" class="small-btn">Draw</button>
+      </div>
+
+      <div class="row">
+        <label>Maximum No. of Gates</label>
+        <input type="number" name="max_gates" value="{{ max_gates or '10' }}">
+      </div>
+
+      <div class="row">
+        <label>Maximim Delay</label>
+        <input type="text" name="max_delay" value="{{ max_delay or '100.00 s' }}">
+      </div>
+
+      <div class="row">
+        <label>No. of Circuits</label>
+        <input type="number" name="num_circuits" value="{{ num_circuits or '10' }}">
+      </div>
+
+      <div class="row order-row">
+        <label>Order By</label>
+
+        <div class="radio-group">
+          <label class="radio-label">
+            <input type="radio" name="order_by" value="delay" checked>
+            Delay
+          </label>
+
+          <label class="radio-label">
+            <input type="radio" name="order_by" value="gates">
+            No. of gates
+          </label>
+        </div>
+
+        <button type="reset" class="small-btn">Reset</button>
+        <button type="submit" class="small-btn">Enter</button>
+        <button type="submit" formaction="/natural-language" class="small-btn wide">
+          Natural Language
+        </button>
+      </div>
+
+      <section class="output-panel">
+        <div class="tabs">
+          <button type="button" class="tab active">Output(s)</button>
+          <button type="button" class="tab">SBOL Data</button>
+        </div>
+
+        <div class="output-content">
+          <div class="display-block">
+            <h3>Truth Table Display</h3>
+            <textarea readonly>{{ truth_table or '' }}</textarea>
+          </div>
+
+          <div class="display-block">
+            <h3>Circuit(s) Display</h3>
+            <textarea readonly>{{ circuits or '' }}</textarea>
+          </div>
+
+          <div class="side-buttons">
+            <button type="button">View Circuit</button>
+            <button type="button">Save Circuit</button>
+            <button type="button" class="db-btn">Database Integration</button>
+          </div>
+        </div>
+      </section>
+
     </form>
 
-    {% if result %}
-    <div class="result">
-      <h2>Result</h2>
-      <pre>{{ result }}</pre>
-    </div>
-    {% endif %}
+    <footer class="status-bar">
+      Ready
+    </footer>
+
   </div>
 </body>
 </html>

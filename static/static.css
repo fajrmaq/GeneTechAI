@@ -1,41 +1,224 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background: #f5f7fb;
   margin: 0;
-  padding: 40px;
+  background: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
 }
 
-.container {
-  max-width: 900px;
-  margin: auto;
+.app-window {
+  width: 100vw;
+  min-height: 100vh;
+  background: #e9e9e9;
+  border: 1px solid #aaa;
+  position: relative;
+  padding-bottom: 38px;
+}
+
+.top-header {
+  background: #f3f3f3;
+  padding: 8px 18px 0 18px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.logo-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo {
+  width: 270px;
+  height: auto;
+}
+
+.tagline {
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-size: 32px;
+  color: #111;
+  white-space: nowrap;
+}
+
+.blue {
+  color: #1682ff;
+}
+
+.orange {
+  color: #ff7b22;
+}
+
+.dna-line {
+  height: 18px;
+  margin-top: -5px;
+  background: repeating-radial-gradient(
+    ellipse at center,
+    transparent 0,
+    transparent 10px,
+    #ff9b72 11px,
+    #ff9b72 12px,
+    transparent 13px,
+    transparent 28px
+  );
+  opacity: 0.55;
+}
+
+.main-form {
+  padding: 70px 26px 25px 26px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 230px 1fr 170px;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.row label {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  height: 38px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  padding: 3px 8px;
+  border: 1px solid #c6c6c6;
   background: white;
-  padding: 30px;
-  border-radius: 14px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
 }
 
-h1 {
-  margin-bottom: 5px;
+input:focus {
+  outline: 3px solid #69aaff;
 }
 
-textarea {
-  width: 100%;
-  height: 160px;
-  margin-top: 10px;
-  padding: 12px;
-  font-size: 16px;
-}
-
-button {
-  margin-top: 15px;
-  padding: 12px 20px;
-  font-size: 16px;
+.small-btn,
+.side-buttons button {
+  height: 42px;
+  border-radius: 8px;
+  border: 1px solid #c8c8c8;
+  background: linear-gradient(#ffffff, #f3f3f3);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
   cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
 }
 
-.result {
-  margin-top: 25px;
-  background: #eef2ff;
-  padding: 20px;
-  border-radius: 10px;
+.small-btn:hover,
+.side-buttons button:hover {
+  background: #eeeeee;
+}
+
+.order-row {
+  grid-template-columns: 230px 380px 170px 170px 220px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.radio-label {
+  font-size: 25px !important;
+  font-weight: normal !important;
+}
+
+.radio-label input {
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+}
+
+.output-panel {
+  position: relative;
+  margin-top: 55px;
+  background: #e5e5e5;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  min-height: 535px;
+  padding: 90px 88px 60px 88px;
+}
+
+.tabs {
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.tab {
+  height: 40px;
+  min-width: 140px;
+  border: 1px solid #c8c8c8;
+  background: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  border-radius: 0 0 8px 8px;
+}
+
+.tab.active {
+  background: #007aff;
+  color: white;
+}
+
+.output-content {
+  display: grid;
+  grid-template-columns: 350px 350px 1fr;
+  gap: 70px;
+  align-items: start;
+}
+
+.display-block h3 {
+  font-size: 25px;
+  margin: 0 0 15px 0;
+  font-weight: bold;
+}
+
+.display-block textarea {
+  width: 350px;
+  height: 305px;
+  background: white;
+  border: 1px solid #bdbdbd;
+  resize: none;
+  font-family: "Courier New", monospace;
+  font-size: 15px;
+  padding: 8px;
+}
+
+.side-buttons {
+  padding-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+}
+
+.side-buttons button {
+  width: 245px;
+}
+
+.side-buttons .db-btn {
+  margin-top: 115px;
+}
+
+.status-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 32px;
+  border-top: 1px solid #aaa;
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  padding-left: 12px;
+  display: flex;
+  align-items: center;
 }
