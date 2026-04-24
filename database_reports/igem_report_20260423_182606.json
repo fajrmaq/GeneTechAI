@@ -1,0 +1,1364 @@
+{
+  "generated_at": "2026-04-23T18:26:06",
+  "source_file": "/Users/fajr.maqsood/Desktop/GeneTech/src/circuits.txt",
+  "providers": [
+    "iGEM Registry",
+    "BioPartsDB"
+  ],
+  "summary": {
+    "total_parts": 14,
+    "available_parts": 14,
+    "missing_parts": 0,
+    "total_circuits": 2,
+    "buildable_circuits": 2,
+    "all_circuits_buildable": true
+  },
+  "parts": [
+    {
+      "part": "AmtR",
+      "part_type": "cds",
+      "registry_id": "BBa_K1372001",
+      "description": "",
+      "availability": {
+        "part": "AmtR",
+        "type": "cds",
+        "available": true,
+        "reason": "",
+        "igem_id": "BBa_K1372001",
+        "url": "https://parts.igem.org/Part:BBa_K1372001",
+        "description": "AmtR repressor",
+        "source": "local_catalog",
+        "registry_name": "iGEM Registry"
+      },
+      "providers": [
+        {
+          "registry_name": "iGEM Registry",
+          "registry_id": "BBa_K1372001",
+          "available": true,
+          "source": "local_catalog",
+          "description": "AmtR repressor",
+          "url": "https://parts.igem.org/Part:BBa_K1372001"
+        },
+        {
+          "registry_name": "BioPartsDB",
+          "registry_id": "BBa_K1372001",
+          "available": false,
+          "source": "link_only",
+          "description": "",
+          "url": "https://biopartsdb.org/part/BBa_K1372001"
+        }
+      ]
+    },
+    {
+      "part": "BM3R1",
+      "part_type": "cds",
+      "registry_id": "BBa_K1372006",
+      "description": "",
+      "availability": {
+        "part": "BM3R1",
+        "type": "cds",
+        "available": true,
+        "reason": "",
+        "igem_id": "BBa_K1372006",
+        "url": "https://parts.igem.org/Part:BBa_K1372006",
+        "description": "BM3R1 repressor",
+        "source": "local_catalog",
+        "registry_name": "iGEM Registry"
+      },
+      "providers": [
+        {
+          "registry_name": "iGEM Registry",
+          "registry_id": "BBa_K1372006",
+          "available": true,
+          "source": "local_catalog",
+          "description": "BM3R1 repressor",
+          "url": "https://parts.igem.org/Part:BBa_K1372006"
+        },
+        {
+          "registry_name": "BioPartsDB",
+          "registry_id": "BBa_K1372006",
+          "available": false,
+          "source": "link_only",
+          "description": "",
+          "url": "https://biopartsdb.org/part/BBa_K1372006"
+        }
+      ]
+    },
+    {
+      "part": "HlYllR",
+      "part_type": "cds",
+      "registry_id": "BBa_K1372003",
+      "description": "",
+      "availability": {
+        "part": "HlYllR",
+        "type": "cds",
+        "available": true,
+        "reason": "",
+        "igem_id": "BBa_K1372003",
+        "url": "https://parts.igem.org/Part:BBa_K1372003",
+        "description": "HlyIIR repressor",
+        "source": "local_catalog",
+        "registry_name": "iGEM Registry"
+      },
+      "providers": [
+        {
+          "registry_name": "iGEM Registry",
+          "registry_id": "BBa_K1372003",
+          "available": true,
+          "source": "local_catalog",
+          "description": "HlyIIR repressor",
+          "url": "https://parts.igem.org/Part:BBa_K1372003"
+        },
+        {
+          "registry_name": "BioPartsDB",
+          "registry_id": "BBa_K1372003",
+          "available": false,
+          "source": "link_only",
+          "description": "",
+          "url": "https://biopartsdb.org/part/BBa_K1372003"
+        }
+      ]
+    },
+    {
+      "part": "PAmtR",
+      "part_type": "promoter",
+      "registry_id": "BBa_K1372007",
+      "description": "",
+      "availability": {
+        "part": "PAmtR",
+        "type": "promoter",
+        "available": true,
+        "reason": "",
+        "igem_id": "BBa_K1372007",
+        "url": "https://parts.igem.org/Part:BBa_K1372007",
+        "description": "AmtR repressible promoter",
+        "source": "local_catalog",
+        "registry_name": "iGEM Registry"
+      },
+      "providers": [
+        {
+          "registry_name": "iGEM Registry",
+          "registry_id": "BBa_K1372007",
+          "available": true,
+          "source": "local_catalog",
+          "description": "AmtR repressible promoter",
+          "url": "https://parts.igem.org/Part:BBa_K1372007"
+        },
+        {
+          "registry_name": "BioPartsDB",
+          "registry_id": "BBa_K1372007",
+          "available": false,
+          "source": "link_only",
+          "description": "",
+          "url": "https://biopartsdb.org/part/BBa_K1372007"
+        }
+      ]
+    },
+    {
+      "part": "PBM3R1",
+      "part_type": "promoter",
+      "registry_id": "BBa_K1372012",
+      "description": "",
+      "availability": {
+        "part": "PBM3R1",
+        "type": "promoter",
+        "available": true,
+        "reason": "",
+        "igem_id": "BBa_K1372012",
+        "url": "https://parts.igem.org/Part:BBa_K1372012",
+        "description": "BM3R1 repressible promoter",
+        "source": "local_catalog",
+        "registry_name": "iGEM Registry"
+      },
+      "providers": [
+        {
+          "registry_name": "iGEM Registry",
+          "registry_id": "BBa_K1372012",
+          "available": true,
+          "source": "local_catalog",
+          "description": "BM3R1 repressible promoter",
+          "url": "https://parts.igem.org/Part:BBa_K1372012"
+        },
+        {
+          "registry_name": "BioPartsDB",
+          "registry_id": "BBa_K1372012",
+          "available": false,
+          "source": "link_only",
+          "description": "",
+          "url": "https://biopartsdb.org/part/BBa_K1372012"
+        }
+      ]
+    },
+    {
+      "part": "PBad",
+      "part_type": "promoter",
+      "registry_id": "BBa_I0500",
+      "description": "",
+      "availability": {
+        "part": "PBad",
+        "type": "promoter",
+        "available": true,
+        "reason": "",
+        "igem_id": "BBa_I0500",
+        "url": "https://parts.igem.org/Part:BBa_I0500",
+        "description": "AraC regulated promoter",
+        "source": "local_catalog",
+        "registry_name": "iGEM Registry"
+      },
+      "providers": [
+        {
+          "registry_name": "iGEM Registry",
+          "registry_id": "BBa_I0500",
+          "available": true,
+          "source": "local_catalog",
+          "description": "AraC regulated promoter",
+          "url": "https://parts.igem.org/Part:BBa_I0500"
+        },
+        {
+          "registry_name": "BioPartsDB",
+          "registry_id": "BBa_I0500",
+          "available": false,
+          "source": "link_only",
+          "description": "",
+          "url": "https://biopartsdb.org/part/BBa_I0500"
+        }
+      ]
+    },
+    {
+      "part": "PHlYllR",
+      "part_type": "promoter",
+      "registry_id": "BBa_K1372009",
+      "description": "",
+      "availability": {
+        "part": "PHlYllR",
+        "type": "promoter",
+        "available": true,
+        "reason": "",
+        "igem_id": "BBa_K1372009",
+        "url": "https://parts.igem.org/Part:BBa_K1372009",
+        "description": "HlyIIR repressible promoter",
+        "source": "local_catalog",
+        "registry_name": "iGEM Registry"
+      },
+      "providers": [
+        {
+          "registry_name": "iGEM Registry",
+          "registry_id": "BBa_K1372009",
+          "available": true,
+          "source": "local_catalog",
+          "description": "HlyIIR repressible promoter",
+          "url": "https://parts.igem.org/Part:BBa_K1372009"
+        },
+        {
+          "registry_name": "BioPartsDB",
+          "registry_id": "BBa_K1372009",
+          "available": false,
+          "source": "link_only",
+          "description": "",
+          "url": "https://biopartsdb.org/part/BBa_K1372009"
+        }
+      ]
+    },
+    {
+      "part": "PPhlF",
+      "part_type": "promoter",
+      "registry_id": "BBa_K1372011",
+      "description": "",
+      "availability": {
+        "part": "PPhlF",
+        "type": "promoter",
+        "available": true,
+        "reason": "",
+        "igem_id": "BBa_K1372011",
+        "url": "https://parts.igem.org/Part:BBa_K1372011",
+        "description": "PhlF repressible promoter",
+        "source": "local_catalog",
+        "registry_name": "iGEM Registry"
+      },
+      "providers": [
+        {
+          "registry_name": "iGEM Registry",
+          "registry_id": "BBa_K1372011",
+          "available": true,
+          "source": "local_catalog",
+          "description": "PhlF repressible promoter",
+          "url": "https://parts.igem.org/Part:BBa_K1372011"
+        },
+        {
+          "registry_name": "BioPartsDB",
+          "registry_id": "BBa_K1372011",
+          "available": false,
+          "source": "link_only",
+          "description": "",
+          "url": "https://biopartsdb.org/part/BBa_K1372011"
+        }
+      ]
+    },
+    {
+      "part": "PSrpR",
+      "part_type": "promoter",
+      "registry_id": "BBa_K1372010",
+      "description": "",
+      "availability": {
+        "part": "PSrpR",
+        "type": "promoter",
+        "available": true,
+        "reason": "",
+        "igem_id": "BBa_K1372010",
+        "url": "https://parts.igem.org/Part:BBa_K1372010",
+        "description": "SrpR repressible promoter",
+        "source": "local_catalog",
+        "registry_name": "iGEM Registry"
+      },
+      "providers": [
+        {
+          "registry_name": "iGEM Registry",
+          "registry_id": "BBa_K1372010",
+          "available": true,
+          "source": "local_catalog",
+          "description": "SrpR repressible promoter",
+          "url": "https://parts.igem.org/Part:BBa_K1372010"
+        },
+        {
+          "registry_name": "BioPartsDB",
+          "registry_id": "BBa_K1372010",
+          "available": false,
+          "source": "link_only",
+          "description": "",
+          "url": "https://biopartsdb.org/part/BBa_K1372010"
+        }
+      ]
+    },
+    {
+      "part": "PTac",
+      "part_type": "promoter",
+      "registry_id": "BBa_K864500",
+      "description": "",
+      "availability": {
+        "part": "PTac",
+        "type": "promoter",
+        "available": true,
+        "reason": "",
+        "igem_id": "BBa_K864500",
+        "url": "https://parts.igem.org/Part:BBa_K864500",
+        "description": "Tac promoter",
+        "source": "local_catalog",
+        "registry_name": "iGEM Registry"
+      },
+      "providers": [
+        {
+          "registry_name": "iGEM Registry",
+          "registry_id": "BBa_K864500",
+          "available": true,
+          "source": "local_catalog",
+          "description": "Tac promoter",
+          "url": "https://parts.igem.org/Part:BBa_K864500"
+        },
+        {
+          "registry_name": "BioPartsDB",
+          "registry_id": "BBa_K864500",
+          "available": false,
+          "source": "link_only",
+          "description": "",
+          "url": "https://biopartsdb.org/part/BBa_K864500"
+        }
+      ]
+    },
+    {
+      "part": "PTet",
+      "part_type": "promoter",
+      "registry_id": "BBa_R0040",
+      "description": "",
+      "availability": {
+        "part": "PTet",
+        "type": "promoter",
+        "available": true,
+        "reason": "",
+        "igem_id": "BBa_R0040",
+        "url": "https://parts.igem.org/Part:BBa_R0040",
+        "description": "TetR repressible promoter",
+        "source": "local_catalog",
+        "registry_name": "iGEM Registry"
+      },
+      "providers": [
+        {
+          "registry_name": "iGEM Registry",
+          "registry_id": "BBa_R0040",
+          "available": true,
+          "source": "local_catalog",
+          "description": "TetR repressible promoter",
+          "url": "https://parts.igem.org/Part:BBa_R0040"
+        },
+        {
+          "registry_name": "BioPartsDB",
+          "registry_id": "BBa_R0040",
+          "available": false,
+          "source": "link_only",
+          "description": "",
+          "url": "https://biopartsdb.org/part/BBa_R0040"
+        }
+      ]
+    },
+    {
+      "part": "PhlF",
+      "part_type": "promoter",
+      "registry_id": "BBa_K1372005",
+      "description": "",
+      "availability": {
+        "part": "PhlF",
+        "type": "promoter",
+        "available": true,
+        "reason": "",
+        "igem_id": "BBa_K1372005",
+        "url": "https://parts.igem.org/Part:BBa_K1372005",
+        "description": "PhlF repressor",
+        "source": "local_catalog",
+        "registry_name": "iGEM Registry"
+      },
+      "providers": [
+        {
+          "registry_name": "iGEM Registry",
+          "registry_id": "BBa_K1372005",
+          "available": true,
+          "source": "local_catalog",
+          "description": "PhlF repressor",
+          "url": "https://parts.igem.org/Part:BBa_K1372005"
+        },
+        {
+          "registry_name": "BioPartsDB",
+          "registry_id": "BBa_K1372005",
+          "available": false,
+          "source": "link_only",
+          "description": "",
+          "url": "https://biopartsdb.org/part/BBa_K1372005"
+        }
+      ]
+    },
+    {
+      "part": "SrpR",
+      "part_type": "cds",
+      "registry_id": "BBa_K1372004",
+      "description": "",
+      "availability": {
+        "part": "SrpR",
+        "type": "cds",
+        "available": true,
+        "reason": "",
+        "igem_id": "BBa_K1372004",
+        "url": "https://parts.igem.org/Part:BBa_K1372004",
+        "description": "SrpR repressor",
+        "source": "local_catalog",
+        "registry_name": "iGEM Registry"
+      },
+      "providers": [
+        {
+          "registry_name": "iGEM Registry",
+          "registry_id": "BBa_K1372004",
+          "available": true,
+          "source": "local_catalog",
+          "description": "SrpR repressor",
+          "url": "https://parts.igem.org/Part:BBa_K1372004"
+        },
+        {
+          "registry_name": "BioPartsDB",
+          "registry_id": "BBa_K1372004",
+          "available": false,
+          "source": "link_only",
+          "description": "",
+          "url": "https://biopartsdb.org/part/BBa_K1372004"
+        }
+      ]
+    },
+    {
+      "part": "YFP",
+      "part_type": "reporter",
+      "registry_id": "BBa_E0030",
+      "description": "",
+      "availability": {
+        "part": "YFP",
+        "type": "reporter",
+        "available": true,
+        "reason": "",
+        "igem_id": "BBa_E0030",
+        "url": "https://parts.igem.org/Part:BBa_E0030",
+        "description": "YFP reporter",
+        "source": "local_catalog",
+        "registry_name": "iGEM Registry"
+      },
+      "providers": [
+        {
+          "registry_name": "iGEM Registry",
+          "registry_id": "BBa_E0030",
+          "available": true,
+          "source": "local_catalog",
+          "description": "YFP reporter",
+          "url": "https://parts.igem.org/Part:BBa_E0030"
+        },
+        {
+          "registry_name": "BioPartsDB",
+          "registry_id": "BBa_E0030",
+          "available": false,
+          "source": "link_only",
+          "description": "",
+          "url": "https://biopartsdb.org/part/BBa_E0030"
+        }
+      ]
+    }
+  ],
+  "circuits": [
+    {
+      "circuit_index": 1,
+      "parts": [
+        {
+          "part": "AmtR",
+          "part_type": "cds",
+          "registry_id": "BBa_K1372001",
+          "description": "",
+          "availability": {
+            "part": "AmtR",
+            "type": "cds",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372001",
+            "url": "https://parts.igem.org/Part:BBa_K1372001",
+            "description": "AmtR repressor",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372001",
+              "available": true,
+              "source": "local_catalog",
+              "description": "AmtR repressor",
+              "url": "https://parts.igem.org/Part:BBa_K1372001"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372001",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372001"
+            }
+          ]
+        },
+        {
+          "part": "BM3R1",
+          "part_type": "cds",
+          "registry_id": "BBa_K1372006",
+          "description": "",
+          "availability": {
+            "part": "BM3R1",
+            "type": "cds",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372006",
+            "url": "https://parts.igem.org/Part:BBa_K1372006",
+            "description": "BM3R1 repressor",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372006",
+              "available": true,
+              "source": "local_catalog",
+              "description": "BM3R1 repressor",
+              "url": "https://parts.igem.org/Part:BBa_K1372006"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372006",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372006"
+            }
+          ]
+        },
+        {
+          "part": "HlYllR",
+          "part_type": "cds",
+          "registry_id": "BBa_K1372003",
+          "description": "",
+          "availability": {
+            "part": "HlYllR",
+            "type": "cds",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372003",
+            "url": "https://parts.igem.org/Part:BBa_K1372003",
+            "description": "HlyIIR repressor",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372003",
+              "available": true,
+              "source": "local_catalog",
+              "description": "HlyIIR repressor",
+              "url": "https://parts.igem.org/Part:BBa_K1372003"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372003",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372003"
+            }
+          ]
+        },
+        {
+          "part": "PAmtR",
+          "part_type": "promoter",
+          "registry_id": "BBa_K1372007",
+          "description": "",
+          "availability": {
+            "part": "PAmtR",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372007",
+            "url": "https://parts.igem.org/Part:BBa_K1372007",
+            "description": "AmtR repressible promoter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372007",
+              "available": true,
+              "source": "local_catalog",
+              "description": "AmtR repressible promoter",
+              "url": "https://parts.igem.org/Part:BBa_K1372007"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372007",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372007"
+            }
+          ]
+        },
+        {
+          "part": "PBM3R1",
+          "part_type": "promoter",
+          "registry_id": "BBa_K1372012",
+          "description": "",
+          "availability": {
+            "part": "PBM3R1",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372012",
+            "url": "https://parts.igem.org/Part:BBa_K1372012",
+            "description": "BM3R1 repressible promoter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372012",
+              "available": true,
+              "source": "local_catalog",
+              "description": "BM3R1 repressible promoter",
+              "url": "https://parts.igem.org/Part:BBa_K1372012"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372012",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372012"
+            }
+          ]
+        },
+        {
+          "part": "PBad",
+          "part_type": "promoter",
+          "registry_id": "BBa_I0500",
+          "description": "",
+          "availability": {
+            "part": "PBad",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_I0500",
+            "url": "https://parts.igem.org/Part:BBa_I0500",
+            "description": "AraC regulated promoter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_I0500",
+              "available": true,
+              "source": "local_catalog",
+              "description": "AraC regulated promoter",
+              "url": "https://parts.igem.org/Part:BBa_I0500"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_I0500",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_I0500"
+            }
+          ]
+        },
+        {
+          "part": "PHlYllR",
+          "part_type": "promoter",
+          "registry_id": "BBa_K1372009",
+          "description": "",
+          "availability": {
+            "part": "PHlYllR",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372009",
+            "url": "https://parts.igem.org/Part:BBa_K1372009",
+            "description": "HlyIIR repressible promoter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372009",
+              "available": true,
+              "source": "local_catalog",
+              "description": "HlyIIR repressible promoter",
+              "url": "https://parts.igem.org/Part:BBa_K1372009"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372009",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372009"
+            }
+          ]
+        },
+        {
+          "part": "PPhlF",
+          "part_type": "promoter",
+          "registry_id": "BBa_K1372011",
+          "description": "",
+          "availability": {
+            "part": "PPhlF",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372011",
+            "url": "https://parts.igem.org/Part:BBa_K1372011",
+            "description": "PhlF repressible promoter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372011",
+              "available": true,
+              "source": "local_catalog",
+              "description": "PhlF repressible promoter",
+              "url": "https://parts.igem.org/Part:BBa_K1372011"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372011",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372011"
+            }
+          ]
+        },
+        {
+          "part": "PTac",
+          "part_type": "promoter",
+          "registry_id": "BBa_K864500",
+          "description": "",
+          "availability": {
+            "part": "PTac",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K864500",
+            "url": "https://parts.igem.org/Part:BBa_K864500",
+            "description": "Tac promoter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K864500",
+              "available": true,
+              "source": "local_catalog",
+              "description": "Tac promoter",
+              "url": "https://parts.igem.org/Part:BBa_K864500"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K864500",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K864500"
+            }
+          ]
+        },
+        {
+          "part": "PTet",
+          "part_type": "promoter",
+          "registry_id": "BBa_R0040",
+          "description": "",
+          "availability": {
+            "part": "PTet",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_R0040",
+            "url": "https://parts.igem.org/Part:BBa_R0040",
+            "description": "TetR repressible promoter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_R0040",
+              "available": true,
+              "source": "local_catalog",
+              "description": "TetR repressible promoter",
+              "url": "https://parts.igem.org/Part:BBa_R0040"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_R0040",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_R0040"
+            }
+          ]
+        },
+        {
+          "part": "PhlF",
+          "part_type": "promoter",
+          "registry_id": "BBa_K1372005",
+          "description": "",
+          "availability": {
+            "part": "PhlF",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372005",
+            "url": "https://parts.igem.org/Part:BBa_K1372005",
+            "description": "PhlF repressor",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372005",
+              "available": true,
+              "source": "local_catalog",
+              "description": "PhlF repressor",
+              "url": "https://parts.igem.org/Part:BBa_K1372005"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372005",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372005"
+            }
+          ]
+        },
+        {
+          "part": "YFP",
+          "part_type": "reporter",
+          "registry_id": "BBa_E0030",
+          "description": "",
+          "availability": {
+            "part": "YFP",
+            "type": "reporter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_E0030",
+            "url": "https://parts.igem.org/Part:BBa_E0030",
+            "description": "YFP reporter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_E0030",
+              "available": true,
+              "source": "local_catalog",
+              "description": "YFP reporter",
+              "url": "https://parts.igem.org/Part:BBa_E0030"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_E0030",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_E0030"
+            }
+          ]
+        }
+      ],
+      "buildable": true,
+      "missing_parts": []
+    },
+    {
+      "circuit_index": 2,
+      "parts": [
+        {
+          "part": "AmtR",
+          "part_type": "cds",
+          "registry_id": "BBa_K1372001",
+          "description": "",
+          "availability": {
+            "part": "AmtR",
+            "type": "cds",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372001",
+            "url": "https://parts.igem.org/Part:BBa_K1372001",
+            "description": "AmtR repressor",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372001",
+              "available": true,
+              "source": "local_catalog",
+              "description": "AmtR repressor",
+              "url": "https://parts.igem.org/Part:BBa_K1372001"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372001",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372001"
+            }
+          ]
+        },
+        {
+          "part": "HlYllR",
+          "part_type": "cds",
+          "registry_id": "BBa_K1372003",
+          "description": "",
+          "availability": {
+            "part": "HlYllR",
+            "type": "cds",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372003",
+            "url": "https://parts.igem.org/Part:BBa_K1372003",
+            "description": "HlyIIR repressor",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372003",
+              "available": true,
+              "source": "local_catalog",
+              "description": "HlyIIR repressor",
+              "url": "https://parts.igem.org/Part:BBa_K1372003"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372003",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372003"
+            }
+          ]
+        },
+        {
+          "part": "PAmtR",
+          "part_type": "promoter",
+          "registry_id": "BBa_K1372007",
+          "description": "",
+          "availability": {
+            "part": "PAmtR",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372007",
+            "url": "https://parts.igem.org/Part:BBa_K1372007",
+            "description": "AmtR repressible promoter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372007",
+              "available": true,
+              "source": "local_catalog",
+              "description": "AmtR repressible promoter",
+              "url": "https://parts.igem.org/Part:BBa_K1372007"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372007",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372007"
+            }
+          ]
+        },
+        {
+          "part": "PBad",
+          "part_type": "promoter",
+          "registry_id": "BBa_I0500",
+          "description": "",
+          "availability": {
+            "part": "PBad",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_I0500",
+            "url": "https://parts.igem.org/Part:BBa_I0500",
+            "description": "AraC regulated promoter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_I0500",
+              "available": true,
+              "source": "local_catalog",
+              "description": "AraC regulated promoter",
+              "url": "https://parts.igem.org/Part:BBa_I0500"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_I0500",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_I0500"
+            }
+          ]
+        },
+        {
+          "part": "PHlYllR",
+          "part_type": "promoter",
+          "registry_id": "BBa_K1372009",
+          "description": "",
+          "availability": {
+            "part": "PHlYllR",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372009",
+            "url": "https://parts.igem.org/Part:BBa_K1372009",
+            "description": "HlyIIR repressible promoter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372009",
+              "available": true,
+              "source": "local_catalog",
+              "description": "HlyIIR repressible promoter",
+              "url": "https://parts.igem.org/Part:BBa_K1372009"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372009",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372009"
+            }
+          ]
+        },
+        {
+          "part": "PPhlF",
+          "part_type": "promoter",
+          "registry_id": "BBa_K1372011",
+          "description": "",
+          "availability": {
+            "part": "PPhlF",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372011",
+            "url": "https://parts.igem.org/Part:BBa_K1372011",
+            "description": "PhlF repressible promoter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372011",
+              "available": true,
+              "source": "local_catalog",
+              "description": "PhlF repressible promoter",
+              "url": "https://parts.igem.org/Part:BBa_K1372011"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372011",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372011"
+            }
+          ]
+        },
+        {
+          "part": "PSrpR",
+          "part_type": "promoter",
+          "registry_id": "BBa_K1372010",
+          "description": "",
+          "availability": {
+            "part": "PSrpR",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372010",
+            "url": "https://parts.igem.org/Part:BBa_K1372010",
+            "description": "SrpR repressible promoter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372010",
+              "available": true,
+              "source": "local_catalog",
+              "description": "SrpR repressible promoter",
+              "url": "https://parts.igem.org/Part:BBa_K1372010"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372010",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372010"
+            }
+          ]
+        },
+        {
+          "part": "PTac",
+          "part_type": "promoter",
+          "registry_id": "BBa_K864500",
+          "description": "",
+          "availability": {
+            "part": "PTac",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K864500",
+            "url": "https://parts.igem.org/Part:BBa_K864500",
+            "description": "Tac promoter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K864500",
+              "available": true,
+              "source": "local_catalog",
+              "description": "Tac promoter",
+              "url": "https://parts.igem.org/Part:BBa_K864500"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K864500",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K864500"
+            }
+          ]
+        },
+        {
+          "part": "PTet",
+          "part_type": "promoter",
+          "registry_id": "BBa_R0040",
+          "description": "",
+          "availability": {
+            "part": "PTet",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_R0040",
+            "url": "https://parts.igem.org/Part:BBa_R0040",
+            "description": "TetR repressible promoter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_R0040",
+              "available": true,
+              "source": "local_catalog",
+              "description": "TetR repressible promoter",
+              "url": "https://parts.igem.org/Part:BBa_R0040"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_R0040",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_R0040"
+            }
+          ]
+        },
+        {
+          "part": "PhlF",
+          "part_type": "promoter",
+          "registry_id": "BBa_K1372005",
+          "description": "",
+          "availability": {
+            "part": "PhlF",
+            "type": "promoter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372005",
+            "url": "https://parts.igem.org/Part:BBa_K1372005",
+            "description": "PhlF repressor",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372005",
+              "available": true,
+              "source": "local_catalog",
+              "description": "PhlF repressor",
+              "url": "https://parts.igem.org/Part:BBa_K1372005"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372005",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372005"
+            }
+          ]
+        },
+        {
+          "part": "SrpR",
+          "part_type": "cds",
+          "registry_id": "BBa_K1372004",
+          "description": "",
+          "availability": {
+            "part": "SrpR",
+            "type": "cds",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_K1372004",
+            "url": "https://parts.igem.org/Part:BBa_K1372004",
+            "description": "SrpR repressor",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_K1372004",
+              "available": true,
+              "source": "local_catalog",
+              "description": "SrpR repressor",
+              "url": "https://parts.igem.org/Part:BBa_K1372004"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_K1372004",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_K1372004"
+            }
+          ]
+        },
+        {
+          "part": "YFP",
+          "part_type": "reporter",
+          "registry_id": "BBa_E0030",
+          "description": "",
+          "availability": {
+            "part": "YFP",
+            "type": "reporter",
+            "available": true,
+            "reason": "",
+            "igem_id": "BBa_E0030",
+            "url": "https://parts.igem.org/Part:BBa_E0030",
+            "description": "YFP reporter",
+            "source": "local_catalog",
+            "registry_name": "iGEM Registry"
+          },
+          "providers": [
+            {
+              "registry_name": "iGEM Registry",
+              "registry_id": "BBa_E0030",
+              "available": true,
+              "source": "local_catalog",
+              "description": "YFP reporter",
+              "url": "https://parts.igem.org/Part:BBa_E0030"
+            },
+            {
+              "registry_name": "BioPartsDB",
+              "registry_id": "BBa_E0030",
+              "available": false,
+              "source": "link_only",
+              "description": "",
+              "url": "https://biopartsdb.org/part/BBa_E0030"
+            }
+          ]
+        }
+      ],
+      "buildable": true,
+      "missing_parts": []
+    }
+  ]
+}
