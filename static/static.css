@@ -10,35 +10,36 @@ body {
 }
 
 .app-window {
-  width: 100vw;
-  min-height: 100vh;
+  max-width: 1120px;
+  min-height: 760px;
+  margin: 20px auto;
   background: #e9e9e9;
-  border: 1px solid #aaa;
+  border: 1px solid #888;
   position: relative;
-  padding-bottom: 38px;
+  padding-bottom: 34px;
 }
 
 .top-header {
   background: #f3f3f3;
-  padding: 8px 18px 0 18px;
+  padding: 8px 16px 0 16px;
   border-bottom: 1px solid #d0d0d0;
 }
 
 .logo-row {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 10px;
 }
 
 .logo {
-  width: 270px;
+  width: 210px;
   height: auto;
 }
 
 .tagline {
   font-family: Arial, sans-serif;
   font-style: italic;
-  font-size: 32px;
+  font-size: 24px;
   color: #111;
   white-space: nowrap;
 }
@@ -52,42 +53,42 @@ body {
 }
 
 .dna-line {
-  height: 18px;
-  margin-top: -5px;
+  height: 14px;
+  margin-top: -3px;
   background: repeating-radial-gradient(
     ellipse at center,
     transparent 0,
-    transparent 10px,
+    transparent 9px,
+    #ff9b72 10px,
     #ff9b72 11px,
-    #ff9b72 12px,
-    transparent 13px,
-    transparent 28px
+    transparent 12px,
+    transparent 26px
   );
-  opacity: 0.55;
+  opacity: 0.45;
 }
 
 .main-form {
-  padding: 70px 26px 25px 26px;
+  padding: 50px 22px 20px 22px;
 }
 
 .row {
   display: grid;
-  grid-template-columns: 230px 1fr 170px;
+  grid-template-columns: 190px 1fr 140px;
   align-items: center;
   gap: 12px;
-  margin-bottom: 22px;
+  margin-bottom: 14px;
 }
 
 .row label {
-  font-size: 26px;
+  font-size: 21px;
   font-weight: bold;
 }
 
 input[type="text"],
 input[type="number"] {
-  height: 38px;
+  height: 32px;
   font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
+  font-size: 20px;
   padding: 3px 8px;
   border: 1px solid #c6c6c6;
   background: white;
@@ -99,14 +100,14 @@ input:focus {
 
 .small-btn,
 .side-buttons button {
-  height: 42px;
+  height: 36px;
   border-radius: 8px;
   border: 1px solid #c8c8c8;
   background: linear-gradient(#ffffff, #f3f3f3);
   font-family: "Times New Roman", Times, serif;
-  font-size: 25px;
+  font-size: 20px;
   cursor: pointer;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
 }
 
 .small-btn:hover,
@@ -115,39 +116,39 @@ input:focus {
 }
 
 .order-row {
-  grid-template-columns: 230px 380px 170px 170px 220px;
+  grid-template-columns: 190px 300px 130px 130px 190px;
 }
 
 .radio-group {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 22px;
 }
 
 .radio-label {
-  font-size: 25px !important;
+  font-size: 20px !important;
   font-weight: normal !important;
 }
 
 .radio-label input {
-  width: 20px;
-  height: 20px;
-  margin-right: 7px;
+  width: 17px;
+  height: 17px;
+  margin-right: 6px;
 }
 
 .output-panel {
   position: relative;
-  margin-top: 55px;
+  margin-top: 35px;
   background: #e5e5e5;
   border: 1px solid #d0d0d0;
   border-radius: 8px;
-  min-height: 535px;
-  padding: 90px 88px 60px 88px;
+  min-height: 390px;
+  padding: 65px 65px 40px 65px;
 }
 
 .tabs {
   position: absolute;
-  top: -18px;
+  top: -20px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -155,11 +156,11 @@ input:focus {
 
 .tab {
   height: 40px;
-  min-width: 140px;
+  min-width: 120px;
   border: 1px solid #c8c8c8;
   background: white;
   font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
+  font-size: 21px;
   border-radius: 0 0 8px 8px;
 }
 
@@ -170,25 +171,25 @@ input:focus {
 
 .output-content {
   display: grid;
-  grid-template-columns: 350px 350px 1fr;
-  gap: 70px;
+  grid-template-columns: 290px 290px 1fr;
+  gap: 45px;
   align-items: start;
 }
 
 .display-block h3 {
-  font-size: 25px;
-  margin: 0 0 15px 0;
+  font-size: 21px;
+  margin: 0 0 14px 0;
   font-weight: bold;
 }
 
 .display-block textarea {
-  width: 350px;
-  height: 305px;
+  width: 290px;
+  height: 220px;
   background: white;
   border: 1px solid #bdbdbd;
   resize: none;
   font-family: "Courier New", monospace;
-  font-size: 15px;
+  font-size: 14px;
   padding: 8px;
 }
 
@@ -196,16 +197,16 @@ input:focus {
   padding-top: 55px;
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 24px;
   align-items: center;
 }
 
 .side-buttons button {
-  width: 245px;
+  width: 210px;
 }
 
 .side-buttons .db-btn {
-  margin-top: 115px;
+  margin-top: 80px;
 }
 
 .status-bar {
@@ -213,12 +214,12 @@ input:focus {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 32px;
+  height: 30px;
   border-top: 1px solid #aaa;
   background: #f4f4f4;
   font-family: Arial, sans-serif;
-  font-size: 24px;
-  padding-left: 12px;
+  font-size: 20px;
+  padding-left: 10px;
   display: flex;
   align-items: center;
 }
