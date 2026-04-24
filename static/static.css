@@ -71,6 +71,16 @@ body {
   padding: 50px 22px 20px 22px;
 }
 
+.error-banner {
+  margin-bottom: 18px;
+  padding: 12px 14px;
+  border: 1px solid #d77;
+  background: #fff1f1;
+  color: #8a1111;
+  font-size: 18px;
+  white-space: pre-wrap;
+}
+
 .row {
   display: grid;
   grid-template-columns: 190px 1fr 140px;
@@ -194,19 +204,70 @@ input:focus {
 }
 
 .side-buttons {
-  padding-top: 55px;
+  padding-top: 12px;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  align-items: center;
+  align-items: stretch;
 }
 
 .side-buttons button {
   width: 210px;
 }
 
-.side-buttons .db-btn {
-  margin-top: 80px;
+.generated-group {
+  background: #fff;
+  border: 1px solid #cfcfcf;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 120px;
+}
+
+.generated-group h3 {
+  margin: 0 0 6px 0;
+  font-size: 21px;
+}
+
+.generated-group a,
+.generated-group span {
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  color: #114a9f;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.generated-group span {
+  color: #555;
+}
+
+.preview-grid {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+.preview-card {
+  background: #fff;
+  border: 1px solid #cfcfcf;
+  padding: 10px;
+}
+
+.preview-title {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  overflow-wrap: anywhere;
+}
+
+.preview-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #ddd;
 }
 
 .status-bar {
