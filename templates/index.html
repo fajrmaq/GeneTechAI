@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GeneTechAI</title>
+  <link rel="stylesheet" href="/static/static.css">
+</head>
+<body>
+  <div class="container">
+    <h1>GeneTechAI</h1>
+    <p>Natural language genetic circuit design interface</p>
+
+    <form method="POST" action="/run">
+      <label>Enter your circuit description:</label>
+      <textarea name="user_input" placeholder="Example: Create a genetic circuit where output is ON only when A and B are present.">{{ user_input or "" }}</textarea>
+
+      <button type="submit">Run GeneTechAI</button>
+    </form>
+
+    {% if result %}
+    <div class="result">
+      <h2>Result</h2>
+      <pre>{{ result }}</pre>
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>
