@@ -1,0 +1,10 @@
+Flask==3.0.3
+gunicorn==22.0.0
+python-dotenv==1.2.2
+requests==2.33.1
+numpy
+pandas
+matplotlib
+sbol3
+schemdraw
+truth-table-generator
